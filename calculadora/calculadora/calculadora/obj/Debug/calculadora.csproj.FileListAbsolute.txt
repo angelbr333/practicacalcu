@@ -1,0 +1,17 @@
+c:\users\gustavo\source\repos\calculadora\calculadora\calculadora\bin\Debug\calculadora.dll
+c:\users\gustavo\source\repos\calculadora\calculadora\calculadora\bin\Debug\calculadora.pdb
+c:\users\gustavo\source\repos\calculadora\calculadora\calculadora\bin\Debug\Xamarin.Forms.Core.dll
+c:\users\gustavo\source\repos\calculadora\calculadora\calculadora\bin\Debug\Xamarin.Forms.Platform.dll
+c:\users\gustavo\source\repos\calculadora\calculadora\calculadora\bin\Debug\Xamarin.Forms.Xaml.dll
+c:\users\gustavo\source\repos\calculadora\calculadora\calculadora\bin\Debug\Xamarin.Forms.Core.pdb
+c:\users\gustavo\source\repos\calculadora\calculadora\calculadora\bin\Debug\Xamarin.Forms.Core.xml
+c:\users\gustavo\source\repos\calculadora\calculadora\calculadora\bin\Debug\Xamarin.Forms.Platform.pdb
+c:\users\gustavo\source\repos\calculadora\calculadora\calculadora\bin\Debug\Xamarin.Forms.Xaml.pdb
+c:\users\gustavo\source\repos\calculadora\calculadora\calculadora\bin\Debug\Xamarin.Forms.Xaml.xml
+c:\users\gustavo\source\repos\calculadora\calculadora\calculadora\obj\Debug\calculadora.csprojResolveAssemblyReference.cache
+c:\users\gustavo\source\repos\calculadora\calculadora\calculadora\obj\Debug\calculadora.csproj.CoreCompileInputs.cache
+c:\users\gustavo\source\repos\calculadora\calculadora\calculadora\obj\Debug\calculadora.MainPage.xaml.g.cs
+c:\users\gustavo\source\repos\calculadora\calculadora\calculadora\obj\Debug\calculadora.App.xaml.g.cs
+c:\users\gustavo\source\repos\calculadora\calculadora\calculadora\obj\Debug\calculadora.dll
+c:\users\gustavo\source\repos\calculadora\calculadora\calculadora\obj\Debug\calculadora.pdb
+C:\Users\Gustavo\source\repos\calculadora\calculadora\calculadora\obj\Debug\calculadora.TESH.xaml.g.cs

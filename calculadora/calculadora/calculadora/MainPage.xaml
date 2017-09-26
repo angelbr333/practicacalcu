@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:calculadora"
+             x:Class="calculadora.MainPage">
+
+	
+    
+        <Grid BackgroundColor="Gray">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions >
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+
+        
+        <Label Grid.Column="0" Grid.Row="0"  Grid.ColumnSpan="3" x:Name="caja3" FontSize="60"></Label>
+        <Label Grid.Column="3" Grid.Row="0"  Grid.ColumnSpan="1" x:Name="caja2" FontSize="60"></Label>
+        <Label Grid.Column="0" Grid.Row="1"  Grid.ColumnSpan="4" x:Name="caja" FontSize="60"></Label>
+
+        <Button FontSize="30" BackgroundColor="SkyBlue" TextColor="White" Grid.Column="0" Grid.Row="2" Text="MC" />
+        <Button FontSize="30" BackgroundColor="SkyBlue" TextColor="White" Grid.Column="1" Grid.Row="2" Text="CE" Clicked="ce_Clicked"/>
+        <Button FontSize="30" BackgroundColor="SkyBlue" TextColor="White" Grid.Column="2" Grid.Row="2" Text="C" Clicked="c_Clicked"/>
+        <Button FontSize="30" BackgroundColor="SkyBlue" TextColor="White" Grid.Column="3" Grid.Row="2" Text="⌫" Clicked="borrar_clicked"/>
+        <Button FontSize="30" BackgroundColor="SkyBlue" TextColor="White" Grid.Column="0" Grid.Row="3" Text="SQRT" Clicked="sqrt_Clicked"/>
+        <Button FontSize="30" BackgroundColor="SkyBlue" TextColor="White" Grid.Column="1" Grid.Row="3" Text="㎡" Clicked="potencia_Clicked" />
+        <Button FontSize="30" BackgroundColor="SkyBlue" TextColor="White" Grid.Column="2" Grid.Row="3" Text="%" Clicked="porcentaje_Clicked"/>
+        <Button FontSize="30" BackgroundColor="SkyBlue" TextColor="White" Grid.Column="3" Grid.Row="3" Text="÷" Clicked="divicion_Clicked" />
+        <Button FontSize="30" BackgroundColor="SkyBlue" TextColor="White" Grid.Column="0" Grid.Row="4" Text="7" Clicked="siete_Clicked" />
+        <Button FontSize="30" BackgroundColor="SkyBlue" TextColor="White" Grid.Column="1" Grid.Row="4" Text="8" Clicked="ocho_clicked"/>
+        <Button FontSize="30" BackgroundColor="SkyBlue" TextColor="White" Grid.Column="2" Grid.Row="4" Text="9" Clicked="nueve_Clicked"/>
+        <Button FontSize="30" BackgroundColor="SkyBlue" TextColor="White" Grid.Column="3" Grid.Row="4" Text="-" Clicked="resta_Clicked"/>
+        <Button FontSize="30" BackgroundColor="SkyBlue" TextColor="White" Grid.Column="0" Grid.Row="5" Text="4" Clicked="cuatro_Clicked"/>
+        <Button FontSize="30" BackgroundColor="SkyBlue" TextColor="White" Grid.Column="1" Grid.Row="5" Text="5" Clicked="cinco_Clicked"/>
+        <Button FontSize="30" BackgroundColor="SkyBlue" TextColor="White" Grid.Column="2" Grid.Row="5" Text="6" Clicked="seis_Clicked"/>
+        <Button FontSize="30" BackgroundColor="SkyBlue" TextColor="White" Grid.Column="3" Grid.Row="5" Text="+" Clicked="suma_Clicked"/>
+        <Button FontSize="30" BackgroundColor="SkyBlue" TextColor="White" Grid.Column="0" Grid.Row="6" Text="1" Clicked="uno_Clicked"/>
+        <Button FontSize="30" BackgroundColor="SkyBlue" TextColor="White" Grid.Column="1" Grid.Row="6" Text="2" Clicked="dos_Clicked"/>
+        <Button FontSize="30" BackgroundColor="SkyBlue" TextColor="White" Grid.Column="2" Grid.Row="6" Text="3" Clicked="tres_Clicked"/>
+        <Button FontSize="30" BackgroundColor="SkyBlue" TextColor="White" Grid.Column="3" Grid.Row="6" Text="*" Clicked="multip_Clicked"/>
+        <Button FontSize="30" BackgroundColor="SkyBlue" TextColor="White" Grid.Column="0" Grid.Row="7" Text="0" Clicked="cero_Clicked"/>
+        <Button FontSize="30" BackgroundColor="SkyBlue" TextColor="White" Grid.Column="1" Grid.Row="7" Text="." Clicked="punto_Clicked"/>
+        <Button FontSize="30" BackgroundColor="SkyBlue" TextColor="White" Grid.Column="2" Grid.Row="7" Text="Exp10" Clicked="exp_Clicked"/>
+        <Button FontSize="30" BackgroundColor="SkyBlue" TextColor="White" Grid.Column="3" Grid.Row="7" Text="=" Clicked="igual_Clicked"/>
+
+    </Grid>
+</ContentPage>

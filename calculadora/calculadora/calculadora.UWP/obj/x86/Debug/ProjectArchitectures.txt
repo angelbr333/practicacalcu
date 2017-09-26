@@ -1,0 +1,2 @@
+C:\Users\Gustavo\source\repos\calculadora\calculadora\calculadora.UWP\calculadora.UWP.csproj;x86
+C:\Users\Gustavo\source\repos\calculadora\calculadora\calculadora\calculadora.csproj;neutral
